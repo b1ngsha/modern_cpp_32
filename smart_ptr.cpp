@@ -141,7 +141,7 @@ template <typename T, typename U>
 smart_ptr<T> static_pointer_cast(const smart_ptr<U> &other) noexcept
 {
     T *ptr = static_cast<T *>(other.get());
-    return smart_ptr<T>(other, ptr)
+    return smart_ptr<T>(other, ptr);
 }
 
 template <typename T, typename U>
