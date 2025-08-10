@@ -51,6 +51,19 @@ Demonstrates usage of function objects and standard algorithms like `std::sort` 
 ### priority_queue.cpp
 Shows how to use `std::priority_queue` with custom comparators, particularly with `std::pair` elements.
 
+### related_container.cpp
+Demonstrates usage of related containers in the STL.
+- `std::set` and `std::multiset` usage with custom comparators
+- `std::map` and `std::multimap` operations
+- Iterator usage with map containers
+- Range operations with `equal_range`, `lower_bound`, and `upper_bound`
+
+### unordered_container.cpp
+Examples of unordered containers from the STL.
+- `std::unordered_set` and `std::unordered_map` usage
+- Hash function customization
+- Bucket interface operations
+
 ## Compilation and Execution
 
 Each example can be compiled and run separately:
@@ -66,13 +79,13 @@ clang++ -std=c++17 -W -Wall -Wfatal-errors example.cpp -o example
 ## Learning Objectives
 Through these example codes, you can learn:
 
-- Container Usage Best Practices - How to effectively use std::vector and its performance optimization techniques
-- Smart Pointer Implementation - Understanding how smart pointers work and memory management mechanisms
-- Object Lifecycle Management - Mastering object construction, destruction, and optimization techniques in C++
-- Modern C++ Features - Including move semantics, template programming, exception safety, etc.
-- RAII Principle - Resource Acquisition Is Initialization programming concept
-- Standard Library Algorithms - Using function objects and standard algorithms effectively
-- STL Containers - Working with specialized containers like priority_queue
+1. Container Usage Best Practices - How to effectively use std::vector and its performance optimization techniques
+2. Smart Pointer Implementation - Understanding how smart pointers work and memory management mechanisms
+3. Object Lifecycle Management - Mastering object construction, destruction, and optimization techniques in C++
+4. Modern C++ Features - Including move semantics, template programming, exception safety, etc.
+5. RAII Principle - Resource Acquisition Is Initialization programming concept
+6. Standard Library Algorithms - Using function objects and standard algorithms effectively
+7. STL Containers - Working with various containers including sequence, associative, and unordered containers
 
 ## Notes
 
